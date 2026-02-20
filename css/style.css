@@ -1,0 +1,195 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+* {
+  font-family: "Lilita One", Ubuntu;
+  transition: 0.5s;
+}
+
+body {
+  zoom: 90%;
+  background-image: url(../img/background.png);
+  background-size: auto;
+  background-position: unset;
+  color: #fff;
+  transition: 0.2s;
+}
+
+header {
+  background-color: #ffffff3a;
+  height: 5pc;
+  width: 90%;
+  border-radius: 2pc;
+}
+
+header a {
+  margin-left: .2pc;
+  margin-right: .2pc;
+  text-decoration: none;
+}
+
+header a button {
+  height: 2pc;
+  width: 2pc;
+}
+
+.btn {
+  height: 3.2pc;
+  width: 3.2pc;
+  font-size: 1pc;
+  border-radius: 0.5pc;
+  border-style: hidden;
+  background-color: #00000000;
+}
+
+.btn:hover {
+  transform: translateY(-6px);
+}
+
+.hidden {
+  color: #ffffff00;
+}
+
+img {
+  border-radius: 3pc;
+  height: 15pc;
+  width: 95%;
+}
+
+.about-btn,
+.services {
+  background-color: #000000a9;
+  color: white;
+  font-size: 1.5pc;
+  border-radius: 1pc;
+  border-style: none;
+  padding: 1.5pc;
+  width: 40%;
+  margin: .5pc;
+  display: inline-block;
+}
+
+.services button {
+  margin: .5pc;
+  background-color: #ec9370;
+}
+
+.services button:hover {
+  background-color: skyblue;
+}
+
+.services button img {
+  height: 2pc;
+  width: 5pc;
+  zoom: 150%;
+}
+
+.about-btn img {
+  height: 15pc;
+  width: 15pc;
+}
+
+.about-btn:first-child {
+  width: 48%;
+}
+
+.about-btn:last-child {
+  width: 48%;
+}
+
+.about-btn:hover,
+.services:hover {
+  transform: translateY(-1pc);
+}
+
+
+label {
+  font-size: 2pc;
+}
+
+label input {
+  height: 1.5pc;
+  width: 1.5pc;
+}
+
+header img {
+  height: 2.5pc;
+}
+
+.Skills {
+  height: 8.5pc;
+  width: 30%;
+  min-width: 12pc;
+  background-color: #000000a9;
+  color: white;
+  border-radius: 1pc;
+  border-style: none;
+  margin: .5pc;
+}
+
+.Skills:hover {
+  transform: translateY(-1pc);
+}
+
+h3 {
+  font-size: 1.5pc;
+}
+
+.fieldset-btn {
+  background-color: #00000000;
+  color: white;
+  border-style: none;
+}
+
+#back-to-top {
+  display: none;
+  font-size: 1.5pc;
+  padding: 1pc;
+  color: white;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  border-width: 3px;
+  background-color: #424141ad;
+  border-radius: 300pc;
+}
+
+#main {
+  display: none;
+}
+
+.loader {
+  margin-top: 4pc;
+  zoom: 200%;
+}
+
+/* Mobile Style */
+@media (max-width: 400px) {
+  .Skills {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobile-not-show {
+    display: none;
+  }
+
+  .about-btn,
+  .services {
+    zoom: 90%;
+    width: 85%;
+  }
+
+  .about-btn:first-child {
+    width: 90%;
+  }
+
+  .about-btn:last-child {
+    width: 90%;
+  }
+
+  .about-btn img {
+    height: 100%;
+    width: 90%;
+  }
+}
